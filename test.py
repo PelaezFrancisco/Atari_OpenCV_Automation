@@ -1,7 +1,4 @@
-import cv2
-import numpy as np
-import pyautogui
-from tkinter import *
+import mouse
 
-
-print(pyautogui.KEYBOARD_KEYS)
+while True:
+    print(mouse.get_position())
